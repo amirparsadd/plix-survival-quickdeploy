@@ -7,14 +7,11 @@ apt install screen
 iptables -A INPUT -p tcp --dport 25565 -j ACCEPT
 iptables -A INPUT -p udp --dport 25565 -j ACCEPT
 
-# Add Eula Acception
-echo "eula=true" >> eula.txt
-
-# Add Survival Plugin
-mkdir plugins
+# Add Plugins
 cd plugins
 
 curl https://plixhost-cdn.s3.ir-thr-at1.arvanstorage.ir/binaries%2FSurvival-1.0.jar >> Survival.jar
+curl https://plixhost-cdn.s3.ir-thr-at1.arvanstorage.ir/binaries%2Fautoupdateplugins-9.5.jar >> AutoUpdate.jar
 
 # Setup The Server
 cd ..

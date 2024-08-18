@@ -1,4 +1,4 @@
-apt update && apt upgrade
+#* Make Sure To Update Packages And Repos
 # Adjust With The Minecraft Version
 apt install openjdk-21-jre-headless
 apt install screen

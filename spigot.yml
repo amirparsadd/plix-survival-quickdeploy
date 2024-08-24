@@ -16,11 +16,11 @@ stats:
   forced-stats: {}
 messages:
   whitelist: Whitelist Is Enabled.
-  unknown-command: Command Nashenakhte!
-  server-full: Server Pore!
+  unknown-command: Unknown Command!
+  server-full: Server Is Full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server Dar Hal Restart Ast!
+  restart: Server Restarting!
 settings:
   debug: false
   moved-wrongly-threshold: 0.0625

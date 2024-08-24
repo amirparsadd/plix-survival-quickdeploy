@@ -5,7 +5,6 @@ apt install screen
 
 # Setup The Ports
 iptables -A INPUT -p tcp --dport 25565 -j ACCEPT
-iptables -A INPUT -p udp --dport 25565 -j ACCEPT
 
 # Add Plugins
 cd plugins

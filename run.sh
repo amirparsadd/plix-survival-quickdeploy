@@ -17,7 +17,7 @@ readonly restart_on_crash='yes'
 # The name of your server jar
 readonly server_jar='server.jar'
 # What will be passed to `-Xms` and `-Xmx`
-readonly heap_size='1G'
+readonly heap_size='3500M'
 # JVM startup flags, one per line for better readability
 # NOTE: -Xms and -Xmx are set separately
 # These are mostly "Aikar flags"

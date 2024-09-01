@@ -32,7 +32,7 @@ settings:
   user-cache-size: 1000
   timeout-time: 60
   restart-on-crash: true
-  restart-script: DO_NOT_RESTART.sh
+  restart-script: restart.sh
   netty-threads: 4
   log-villager-deaths: true
   log-named-deaths: true

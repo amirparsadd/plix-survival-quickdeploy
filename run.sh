@@ -103,7 +103,7 @@ while :; do # Loop infinitely
   else
     break # Flag doesn't exist, so break out of the loop
   fi
-  printf 'Restarting server in 10 seconds, press Ctrl+C to abort.\n' >&2
+  printf "Restarting server in ${restart_delay} seconds, press Ctrl+C to abort.\n" >&2
   sleep "${restart_delay}" || break # Exit if sleep is interrupted (for example Ctrl+C)
 done
 

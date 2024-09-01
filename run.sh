@@ -7,7 +7,7 @@ set -euo pipefail
 # Path to file used to communicate from restart script
 readonly restart_flag='.restart_flag'
 # How long (in seconds) to wait before restarting
-readonly restart_delay=10
+readonly restart_delay=3
 # Whether to restart on crash or not
 # The `settings.restart-on-crash` setting in spigot.yml doesn't always work
 # but also sometimes server might not return proper exit code,
@@ -15,7 +15,7 @@ readonly restart_delay=10
 # Accepted values: y/yes/true/n/no/false
 readonly restart_on_crash='yes'
 # The name of your server jar
-readonly server_jar='paperclip.jar'
+readonly server_jar='server.jar'
 # What will be passed to `-Xms` and `-Xmx`
 readonly heap_size='1G'
 # JVM startup flags, one per line for better readability

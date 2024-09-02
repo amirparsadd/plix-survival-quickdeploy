@@ -8,8 +8,6 @@ iptables -A INPUT -p tcp --dport 25565 -j ACCEPT
 
 # Add Plugins
 cd plugins
-
-curl https://plixhost-cdn.s3.ir-thr-at1.arvanstorage.ir/binaries%2FSurvival-1.0.jar >> Survival.jar
 curl https://plixhost-cdn.s3.ir-thr-at1.arvanstorage.ir/binaries%2Fautoupdateplugins-9.5.jar >> AutoUpdate.jar
 
 # Setup The Server

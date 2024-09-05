@@ -103,8 +103,8 @@ world-settings:
     max-tnt-per-tick: 100
     dragon-death-sound-radius: 0
     merge-radius:
-      item: 4.0
-      exp: 8.0
+      item: 8.0
+      exp: 16.0
     entity-tracking-range:
       players: 48
       animals: 48
@@ -159,8 +159,8 @@ world-settings:
         flying-monsters-every: 200
         flying-monsters-for: 100
     ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
+      hopper-transfer: 20
+      hopper-check: 10
     hunger:
       jump-walk-exhaustion: 0.05
       jump-sprint-exhaustion: 0.2
